@@ -2,15 +2,22 @@
   "name": "ai-news-daily",
   "version": "1.0.0",
   "description": "每日 AI / OpenClaw 资讯播报技能",
+  "author": "Jack",
+  "license": "MIT",
+  "homepage": "https://github.com/NanguangChou/openclaw-ai-news-daily",
   "sources": {
     "hackernews": {
       "enabled": true,
-      "keywords": ["AI", "LLM", "OpenAI", "Anthropic", "Claude", "OpenClaw", "machine learning"]
+      "keywords": ["AI", "LLM", "OpenAI", "Anthropic", "Claude", "OpenClaw", "machine learning", "GPT", "Neural"]
     },
     "github-trending": {
       "enabled": true,
       "language": "all",
-      " timeframe": "daily"
+      "timeframe": "daily"
+    },
+    "reddit-ai": {
+      "enabled": true,
+      "subreddits": ["ArtificialIntelligence", "MachineLearning", "OpenAI", "ChatGPT"]
     },
     "twitter-ai": {
       "enabled": false,
@@ -19,5 +26,6 @@
   },
   "language": "zh-CN",
   "max_items": 10,
-  "schedule": "0 8 * * *"
+  "schedule": "0 8 * * *",
+  "cache_ttl": 3600
 }
