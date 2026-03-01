@@ -249,3 +249,38 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+# ============ 推送功能 ============
+class PushNotifier:
+    """推送通知器"""
+    
+    def __init__(self, config: dict):
+        self.config = config
+    
+    async def send_telegram(self, message: str, token: str = None, chat_id: str = None):
+        """发送到 Telegram"""
+        if not token:
+            token = os.getenv("TELEGRAM_BOT_TOKEN")
+        if not chat_id:
+            chat_id = os.getenv("TELEGRAM_CHAT_ID")
+        
+        if not token or not chat_id:
+            return False
+        
+        url = f"https://api.telegram.org/bot{token}/sendMessage"
+        data = {
+            "chat_id": chat_id,
+            "text": message,
+            "parse_mode": "Markdown"
+        }
+        
+        async with httpx.AsyncClient() as client:
+            await client.post(url, json=data)
+        return True
+    
+    async def notify(self, news: list):
+        """发送通知"""
+        message = self.format_message(news)
+        await self.send_telegram(message)
+
