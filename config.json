@@ -1,0 +1,23 @@
+{
+  "name": "ai-news-daily",
+  "version": "1.0.0",
+  "description": "每日 AI / OpenClaw 资讯播报技能",
+  "sources": {
+    "hackernews": {
+      "enabled": true,
+      "keywords": ["AI", "LLM", "OpenAI", "Anthropic", "Claude", "OpenClaw", "machine learning"]
+    },
+    "github-trending": {
+      "enabled": true,
+      "language": "all",
+      " timeframe": "daily"
+    },
+    "twitter-ai": {
+      "enabled": false,
+      "keywords": ["AI", "LLM", "GPT"]
+    }
+  },
+  "language": "zh-CN",
+  "max_items": 10,
+  "schedule": "0 8 * * *"
+}
