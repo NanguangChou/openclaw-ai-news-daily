@@ -1,0 +1,60 @@
+=== OpenClaw 项目 Review - 2026-03-01 19:29 ===
+1. 检查代码更新...
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	daily-review.sh
+	review.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+2. 检查 Python 依赖...
+httpx                     0.28.1
+httpx-sse                 0.4.3
+requests                  2.32.3
+3. 测试运行...
+📰 今日 AI 要闻 (2026-03-01)
+
+1. 🔥 everything-claude-code
+   来源: GitHub Trending | 热度: 55410
+   📝 The agent harness performance optimization system. Skills, instincts, memory, se...
+   🔗 https://github.com/affaan-m/everything-claude-code
+
+2. 🔥 zeroclaw
+   来源: GitHub Trending | 热度: 21436
+   📝 Fast, small, and fully autonomous AI assistant framework — deploy anywhere, swap...
+   🔗 https://github.com/zeroclaw-labs/zeroclaw
+
+3. 🔥 worldmonitor
+   来源: GitHub Trending | 热度: 18556
+   📝 Real-time global intelligence dashboard — AI-powered news aggregation, geopoliti...
+   🔗 https://github.com/koala73/worldmonitor
+
+4. 🔥 antigravity-awesome-skills
+   来源: GitHub Trending | 热度: 17453
+   📝 The Ultimate Collection of 900+ Agentic Skills for Claude Code/Antigravity/Curso...
+   🔗 https://github.com/sickn33/antigravity-awesome-skills
+
+5. 🔥 agent-browser
+   来源: GitHub Trending | 热度: 16776
+   📝 Browser automation CLI for AI agents...
+   🔗 https://github.com/vercel-labs/agent-browser
+
+6. 🔥 We do not think Anthropic should be designated as a supply chain risk
+   来源: Hacker News | 热度: 577
+   🔗 https://twitter.com/OpenAI/status/2027846016423321831
+
+7. 🔥 MCP server that reduces Claude Code context consumption by 98%
+   来源: Hacker News | 热度: 415
+   🔗 https://mksg.lu/blog/context-mode
+
+8. 🔥 Switch to Claude without starting over
+   来源: Hacker News | 热度: 163
+   🔗 https://claude.com/import-memory
+
+9. 🔥 10-202: Introduction to Modern AI (CMU)
+   来源: Hacker News | 热度: 65
+   🔗 https://modernaicourse.org
+
+4. 检查 README...
+今日无更新
+=== Review 完成 ===
