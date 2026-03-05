@@ -437,6 +437,12 @@
 </p>
 
 
+<p align="center">
+  <img src="https://img.shields.io/github/stars/NanguangChou/openclaw-ai-news-daily" alt="Stars">
+  <img src="https://img.shields.io/github/forks/NanguangChou/openclaw-ai-news-daily" alt="Forks">
+</p>
+
+
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/NanguangChou/openclaw-ai-news-daily" alt="Stars">
